@@ -13,6 +13,7 @@ class WritePost extends Component {
             posts,
             post,
             gifComponent,
+            deletePost,
         } = this.props;
 
         console.log(post.gifUrl);
@@ -70,7 +71,7 @@ class WritePost extends Component {
                         </div>
                     </div>
                     <div className="">
-                        <SavedPost posts={posts} />
+                        <SavedPost posts={posts} deletePost={deletePost} />
                     </div>
                 </div>
                 <p className="text-center">

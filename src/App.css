@@ -62,3 +62,7 @@
 .heart {
     color: red;
 }
+
+.delete-icon:hover {
+    color: blue;
+}

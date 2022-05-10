@@ -3,6 +3,7 @@ import "./App.css";
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import React from "react";
 import WritePost from "./components/WritePost";
 
@@ -62,11 +63,14 @@ class App extends React.Component {
         this.setState({ posts, post: {} });
     };
 
-    deletePost = () => {};
-
-    // handleGifBtn = () => {
-
-    // }
+    deletePost = (id) => {
+        let posts = this.state.posts;
+        posts = posts.filter((post) => {
+            if (post.id !== id) return post;
+        });
+        // console.log(id, posts);
+        this.setState({ posts });
+    };
 
     gifCompToggle = () => {
         let showGifComp = this.state.gifComponent ? false : true;
@@ -85,6 +89,7 @@ class App extends React.Component {
                     posts={this.state.posts}
                     post={this.state.post}
                     gifComponent={this.state.gifComponent}
+                    deletePost={this.deletePost}
                 />
             </React.Fragment>
         );

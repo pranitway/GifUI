@@ -1,7 +1,7 @@
 import { React } from "react";
 
 const SavedPost = (props) => {
-    const { posts } = props;
+    const { posts, deletePost } = props;
     // console.log(posts);
     let month = [
         "Jan",
@@ -33,12 +33,16 @@ const SavedPost = (props) => {
                     ) : null}
                 </div>
 
-                <div className="card-footer">
+                <div className="card-footer d-flex justify-content-between">
                     <p>
                         {month[card.date.getMonth()]} {card.date.getDate()} ,{" "}
                         {card.date.getFullYear()} at {card.date.getHours()}:
                         {card.date.getMinutes().toString().padStart(2, "0")}
                     </p>
+                    <i
+                        class="bi bi-trash delete-icon"
+                        onClick={() => deletePost(card.id)}
+                    ></i>
                 </div>
             </div>
         );

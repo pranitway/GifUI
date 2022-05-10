@@ -52,6 +52,7 @@ class App extends React.Component {
         let posts = this.state.posts;
         posts = posts.filter((post) => {
             if (post.id !== id) return post;
+            return false;
         });
         // console.log(id, posts);
         this.setState({ posts });

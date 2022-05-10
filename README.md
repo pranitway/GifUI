@@ -1,3 +1,10 @@
+# Preview
+<h3><a href="https://pranitway.github.io/gif-post-ui/">Online Preview</a></h3>
+<img src="preview/1.png" width="600px"></img>
+<img src="preview/2.png" width="600px"></img>
+<img src="preview/3.png" width="600px"></img>
+<img src="preview/4.png" width="600px"></img>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

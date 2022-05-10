@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/GifUI/static/css/main.3d908eba.css",
+    "main.js": "/GifUI/static/js/main.09a554ae.js",
+    "static/js/787.1efc9302.chunk.js": "/GifUI/static/js/787.1efc9302.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/GifUI/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
+    "static/media/bootstrap-icons.woff2?": "/GifUI/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
+    "index.html": "/GifUI/index.html",
+    "static/media/arrow_left.svg": "/GifUI/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
+    "static/media/arrow_right.svg": "/GifUI/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
+    "main.3d908eba.css.map": "/GifUI/static/css/main.3d908eba.css.map",
+    "main.09a554ae.js.map": "/GifUI/static/js/main.09a554ae.js.map",
+    "787.1efc9302.chunk.js.map": "/GifUI/static/js/787.1efc9302.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d908eba.css",
+    "static/js/main.09a554ae.js"
+  ]
+}

@@ -1,11 +1,3 @@
-## Preview
-
-<img src="https://i.imgur.com/OYzZWEU.png" alt="drawing" width="600"/>
-<img src="https://i.imgur.com/WsXLiFn.png" alt="drawing" width="600"/>
-<img src="https://i.imgur.com/bASZiGt.png" alt="drawing" width="600"/>
-<img src="https://i.imgur.com/rNxYGHT.png" alt="drawing" width="600"/>
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

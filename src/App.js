@@ -7,23 +7,9 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import React from "react";
 import WritePost from "./components/WritePost";
 
-// function App() {
-//     return (
-//         <React.Fragment>
-//             <WritePost />
-//         </React.Fragment>
-//     );
-// }
-
 class App extends React.Component {
     state = {
-        posts: [
-            // {
-            //     id: 1,
-            //     message: "This is the content...",
-            //     gifUrl: "https://media3.giphy.com/media/28GHfhGFWpFgsQB4wR/giphy.gif?cid=7c5ec064cuhyd5owrtl13x31h2fwn84qqcdwyebgv5u73kx6&rid=giphy.gif&ct=g",
-            // },
-        ],
+        posts: [],
 
         gifComponent: false,
         post: { gifUrl: "" },
@@ -40,7 +26,6 @@ class App extends React.Component {
         console.log("Image URL: ", imgUrl);
         let post = this.state.post;
         post.gifUrl = imgUrl;
-        // postContent.
 
         this.setState({ post });
         console.log(this.state.posts);

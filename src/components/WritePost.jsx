@@ -29,7 +29,7 @@ class WritePost extends Component {
                             <form onSubmit={handleSubmit}>
                                 <div className="form-group form-group-lg">
                                     <textarea
-                                        className="form-control"
+                                        className="form-control shadow-none"
                                         id="txt-area"
                                         rows="3"
                                         onChange={handelFormValue}

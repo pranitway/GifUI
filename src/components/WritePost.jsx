@@ -3,64 +3,6 @@ import SavedPost from "./SavedPost";
 import Gif from "./Gif";
 
 class WritePost extends Component {
-    // state = {
-    //     posts: [
-    //         // {
-    //         //     id: 1,
-    //         //     message: "This is the content...",
-    //         //     gifUrl: "https://media3.giphy.com/media/28GHfhGFWpFgsQB4wR/giphy.gif?cid=7c5ec064cuhyd5owrtl13x31h2fwn84qqcdwyebgv5u73kx6&rid=giphy.gif&ct=g",
-    //         // },
-    //     ],
-
-    //     gifComponent: false,
-    //     post: { gifUrl: "" },
-    // };
-
-    // postContent = React.createRef();
-
-    // handelFormValue = (event) => {
-    //     console.log("Form Values: ", event.target.name, event.target.value);
-    //     this.setState({ post: { message: event.target.value } });
-    // };
-
-    // handleGifImg = (imgUrl) => {
-    //     console.log("Image URL: ", imgUrl);
-    //     let post = this.state.post;
-    //     post.gifUrl = imgUrl;
-    //     // postContent.
-
-    //     this.setState({ post });
-    //     console.log(this.state.posts);
-    // };
-
-    // handleSubmit = (event) => {
-    //     event.preventDefault();
-    //     console.log("Successfully Submitted...");
-    //     let posts = this.state.posts;
-    //     let dataCount = posts.length;
-    //     let postContent = this.postContent.current.value;
-    //     let post = this.state.post;
-    //     post.id = dataCount + 1;
-    //     post.message = postContent;
-    //     post.date = new Date();
-    //     posts.push(post);
-    //     console.log(post);
-
-    //     // posts.push({})
-    //     this.setState({ posts, post: {} });
-    // };
-
-    // deletePost = () => {};
-
-    // // handleGifBtn = () => {
-
-    // // }
-
-    // gifCompToggle = () => {
-    //     let showGifComp = this.state.gifComponent ? false : true;
-    //     this.setState({ gifComponent: showGifComp });
-    // };
-
     render() {
         let {
             handleSubmit,

@@ -59,7 +59,7 @@ class WritePost extends Component {
                                         type="submit"
                                         className="btn btn-primary"
                                     >
-                                        SAVE
+                                        POST
                                     </button>
                                 </div>
                             </form>
